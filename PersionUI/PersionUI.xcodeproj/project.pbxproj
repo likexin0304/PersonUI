@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024506911F0745A800F088F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024506901F0745A800F088F0 /* AppDelegate.swift */; };
+		024506931F0745A800F088F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024506921F0745A800F088F0 /* ViewController.swift */; };
+		024506961F0745A800F088F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024506941F0745A800F088F0 /* Main.storyboard */; };
+		024506991F0745A800F088F0 /* PersionUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 024506971F0745A800F088F0 /* PersionUI.xcdatamodeld */; };
+		0245069B1F0745A800F088F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0245069A1F0745A800F088F0 /* Assets.xcassets */; };
+		0245069E1F0745A800F088F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0245069C1F0745A800F088F0 /* LaunchScreen.storyboard */; };
+		024506A91F0745A800F088F0 /* PersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024506A81F0745A800F088F0 /* PersionUITests.swift */; };
+		024506B41F0745A800F088F0 /* PersionUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024506B31F0745A800F088F0 /* PersionUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		024506A51F0745A800F088F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024506851F0745A800F088F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0245068C1F0745A800F088F0;
+			remoteInfo = PersionUI;
+		};
+		024506B01F0745A800F088F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024506851F0745A800F088F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0245068C1F0745A800F088F0;
+			remoteInfo = PersionUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0245068D1F0745A800F088F0 /* PersionUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersionUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		024506901F0745A800F088F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		024506921F0745A800F088F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		024506951F0745A800F088F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		024506981F0745A800F088F0 /* PersionUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersionUI.xcdatamodel; sourceTree = "<group>"; };
+		0245069A1F0745A800F088F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0245069D1F0745A800F088F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0245069F1F0745A800F088F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024506A41F0745A800F088F0 /* PersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024506A81F0745A800F088F0 /* PersionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersionUITests.swift; sourceTree = "<group>"; };
+		024506AA1F0745A800F088F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024506AF1F0745A800F088F0 /* PersionUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersionUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024506B31F0745A800F088F0 /* PersionUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersionUIUITests.swift; sourceTree = "<group>"; };
+		024506B51F0745A800F088F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0245068A1F0745A800F088F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024506A11F0745A800F088F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024506AC1F0745A800F088F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024506841F0745A800F088F0 = {
+			isa = PBXGroup;
+			children = (
+				0245068F1F0745A800F088F0 /* PersionUI */,
+				024506A71F0745A800F088F0 /* PersionUITests */,
+				024506B21F0745A800F088F0 /* PersionUIUITests */,
+				0245068E1F0745A800F088F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0245068E1F0745A800F088F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0245068D1F0745A800F088F0 /* PersionUI.app */,
+				024506A41F0745A800F088F0 /* PersionUITests.xctest */,
+				024506AF1F0745A800F088F0 /* PersionUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0245068F1F0745A800F088F0 /* PersionUI */ = {
+			isa = PBXGroup;
+			children = (
+				024506901F0745A800F088F0 /* AppDelegate.swift */,
+				024506921F0745A800F088F0 /* ViewController.swift */,
+				024506941F0745A800F088F0 /* Main.storyboard */,
+				0245069A1F0745A800F088F0 /* Assets.xcassets */,
+				0245069C1F0745A800F088F0 /* LaunchScreen.storyboard */,
+				0245069F1F0745A800F088F0 /* Info.plist */,
+				024506971F0745A800F088F0 /* PersionUI.xcdatamodeld */,
+			);
+			path = PersionUI;
+			sourceTree = "<group>";
+		};
+		024506A71F0745A800F088F0 /* PersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				024506A81F0745A800F088F0 /* PersionUITests.swift */,
+				024506AA1F0745A800F088F0 /* Info.plist */,
+			);
+			path = PersionUITests;
+			sourceTree = "<group>";
+		};
+		024506B21F0745A800F088F0 /* PersionUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				024506B31F0745A800F088F0 /* PersionUIUITests.swift */,
+				024506B51F0745A800F088F0 /* Info.plist */,
+			);
+			path = PersionUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0245068C1F0745A800F088F0 /* PersionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024506B81F0745A800F088F0 /* Build configuration list for PBXNativeTarget "PersionUI" */;
+			buildPhases = (
+				024506891F0745A800F088F0 /* Sources */,
+				0245068A1F0745A800F088F0 /* Frameworks */,
+				0245068B1F0745A800F088F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersionUI;
+			productName = PersionUI;
+			productReference = 0245068D1F0745A800F088F0 /* PersionUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		024506A31F0745A800F088F0 /* PersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024506BB1F0745A800F088F0 /* Build configuration list for PBXNativeTarget "PersionUITests" */;
+			buildPhases = (
+				024506A01F0745A800F088F0 /* Sources */,
+				024506A11F0745A800F088F0 /* Frameworks */,
+				024506A21F0745A800F088F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024506A61F0745A800F088F0 /* PBXTargetDependency */,
+			);
+			name = PersionUITests;
+			productName = PersionUITests;
+			productReference = 024506A41F0745A800F088F0 /* PersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		024506AE1F0745A800F088F0 /* PersionUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024506BE1F0745A800F088F0 /* Build configuration list for PBXNativeTarget "PersionUIUITests" */;
+			buildPhases = (
+				024506AB1F0745A800F088F0 /* Sources */,
+				024506AC1F0745A800F088F0 /* Frameworks */,
+				024506AD1F0745A800F088F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024506B11F0745A800F088F0 /* PBXTargetDependency */,
+			);
+			name = PersionUIUITests;
+			productName = PersionUIUITests;
+			productReference = 024506AF1F0745A800F088F0 /* PersionUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024506851F0745A800F088F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LIKEXIN;
+				TargetAttributes = {
+					0245068C1F0745A800F088F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4QMK8BNPXW;
+						ProvisioningStyle = Automatic;
+					};
+					024506A31F0745A800F088F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4QMK8BNPXW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0245068C1F0745A800F088F0;
+					};
+					024506AE1F0745A800F088F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4QMK8BNPXW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0245068C1F0745A800F088F0;
+					};
+				};
+			};
+			buildConfigurationList = 024506881F0745A800F088F0 /* Build configuration list for PBXProject "PersionUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024506841F0745A800F088F0;
+			productRefGroup = 0245068E1F0745A800F088F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0245068C1F0745A800F088F0 /* PersionUI */,
+				024506A31F0745A800F088F0 /* PersionUITests */,
+				024506AE1F0745A800F088F0 /* PersionUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0245068B1F0745A800F088F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0245069E1F0745A800F088F0 /* LaunchScreen.storyboard in Resources */,
+				0245069B1F0745A800F088F0 /* Assets.xcassets in Resources */,
+				024506961F0745A800F088F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024506A21F0745A800F088F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024506AD1F0745A800F088F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024506891F0745A800F088F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024506931F0745A800F088F0 /* ViewController.swift in Sources */,
+				024506991F0745A800F088F0 /* PersionUI.xcdatamodeld in Sources */,
+				024506911F0745A800F088F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024506A01F0745A800F088F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024506A91F0745A800F088F0 /* PersionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024506AB1F0745A800F088F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024506B41F0745A800F088F0 /* PersionUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		024506A61F0745A800F088F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0245068C1F0745A800F088F0 /* PersionUI */;
+			targetProxy = 024506A51F0745A800F088F0 /* PBXContainerItemProxy */;
+		};
+		024506B11F0745A800F088F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0245068C1F0745A800F088F0 /* PersionUI */;
+			targetProxy = 024506B01F0745A800F088F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		024506941F0745A800F088F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024506951F0745A800F088F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0245069C1F0745A800F088F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0245069D1F0745A800F088F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		024506B61F0745A800F088F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024506B71F0745A800F088F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024506B91F0745A800F088F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QMK8BNPXW;
+				INFOPLIST_FILE = PersionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = likexin.PersionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		024506BA1F0745A800F088F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QMK8BNPXW;
+				INFOPLIST_FILE = PersionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = likexin.PersionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		024506BC1F0745A800F088F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4QMK8BNPXW;
+				INFOPLIST_FILE = PersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = likexin.PersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersionUI.app/PersionUI";
+			};
+			name = Debug;
+		};
+		024506BD1F0745A800F088F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4QMK8BNPXW;
+				INFOPLIST_FILE = PersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = likexin.PersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersionUI.app/PersionUI";
+			};
+			name = Release;
+		};
+		024506BF1F0745A800F088F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4QMK8BNPXW;
+				INFOPLIST_FILE = PersionUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = likexin.PersionUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PersionUI;
+			};
+			name = Debug;
+		};
+		024506C01F0745A800F088F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4QMK8BNPXW;
+				INFOPLIST_FILE = PersionUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = likexin.PersionUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PersionUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024506881F0745A800F088F0 /* Build configuration list for PBXProject "PersionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024506B61F0745A800F088F0 /* Debug */,
+				024506B71F0745A800F088F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024506B81F0745A800F088F0 /* Build configuration list for PBXNativeTarget "PersionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024506B91F0745A800F088F0 /* Debug */,
+				024506BA1F0745A800F088F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		024506BB1F0745A800F088F0 /* Build configuration list for PBXNativeTarget "PersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024506BC1F0745A800F088F0 /* Debug */,
+				024506BD1F0745A800F088F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		024506BE1F0745A800F088F0 /* Build configuration list for PBXNativeTarget "PersionUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024506BF1F0745A800F088F0 /* Debug */,
+				024506C01F0745A800F088F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		024506971F0745A800F088F0 /* PersionUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				024506981F0745A800F088F0 /* PersionUI.xcdatamodel */,
+			);
+			currentVersion = 024506981F0745A800F088F0 /* PersionUI.xcdatamodel */;
+			path = PersionUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 024506851F0745A800F088F0 /* Project object */;
+}
